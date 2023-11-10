@@ -1,5 +1,8 @@
 #include "stringcopy.h"
 
+/* for strncpy */
+#define _POSIX_C_SOURCE 200809L
+
 #include <limits.h>
 #include <errno.h>
 #include <stdio.h>
